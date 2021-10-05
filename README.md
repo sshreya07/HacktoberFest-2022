@@ -1,1 +1,1 @@
-# HacktoberFest_2021 Is Live Now !
+# HacktoberFest_2021 is Live Now !
