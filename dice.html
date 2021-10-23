@@ -32,6 +32,7 @@
 		   font-size:2rem;
 		   color:#00b894;
 		   text-shadow:1px 1px white;
+		   margin: 10px 50px 30px 50px;
 		 
 		 }
 		 button{
@@ -45,7 +46,9 @@
 		    width:75%;
 		 }
 	  
-	  
+	  .clkme{
+	  	margin-top: 30px;
+	  }
 	  
 	  </style>
        
@@ -57,14 +60,14 @@
 	     <h1> LUDO GAME</h1>
 		 
 		 <div class="dice">
-		    <p> Palyer 1</p>
+		    <p> Player 1</p>
 			<img src="d1.PNG" id="check1">
 		 </div>
             <div class="dice">
-		    <p> Palyer 2</p>
+		    <p> Player 2</p>
 			<img src="d6.PNG" id="check2">
 		 </div>
-          <div>
+          <div class="clkme">
 		     <button onclick="ludo()"> Click Me</button>
 		  
 		  </div>
@@ -81,11 +84,11 @@
 		  document.getElementById(`check2`).setAttribute('src',play2dice);
 	      
 		  if( play1 > play2 )
-		  {  document.querySelector(`h1`).innerHTML="player1 won :)";
+		  {  document.querySelector(`h1`).innerHTML="Player1 won :)";
 		  }
 	          else if( play1 < play2) 
 			  {    
-			     document.querySelector(`h1`).innerHTML="player2 won :)"; 
+			     document.querySelector(`h1`).innerHTML="Player2 won :)"; 
 			  }
 			     else{
 				    document.querySelector(`h1`).innerHTML="DRAW";
