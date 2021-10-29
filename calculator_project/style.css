@@ -106,7 +106,20 @@ button:nth-child(20) {
     cursor: pointer;
 }
 
+/* added by nikhil kumar */
+
 .operator:active,
 .number:active {
-    font-size: 10px;
+  /* font-size: 10px; */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.number:hover,
+.operator:hover {
+  /* font-size:15px; */
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.521);
+  color: white;
 }
