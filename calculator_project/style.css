@@ -5,11 +5,11 @@ body {
 
 .container {
     width: 1000px;
-    height: 650px;
+    height: 750px;
     background: url(Simple-Plain-Background11.jpg);
     background-repeat: no-repeat;
     background-size: 1000px 650px;
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .calculator {
