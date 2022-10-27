@@ -65,7 +65,7 @@ li{
     margin-bottom: 200px;
 }
 .btn{
-    font-size: 24px;
+    font-size: 25px;
     color: white;
     background-color: coral;
     width: fit-content;
@@ -79,7 +79,7 @@ li{
 }
 .btn:active{
     background-color: darkgrey;
-    color: #808080;
+    color: #808081;
 }
 
 .socials{
