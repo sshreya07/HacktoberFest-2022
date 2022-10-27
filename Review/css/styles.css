@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;	
+	background-color: #F1F5F8;
+	font-family: 'Roboto', sans-serif;
+}
+
+main{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content{
+	width:45%;
+	max-width: 640px;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+#heading{
+	width: 100%;
+}
+#heading h1{
+	width: fit-content;
+	height: fit-content;
+	font-size: 45px;
+	margin: 0 auto;
+	margin-bottom: 1.4%;
+	color: #102A42;
+	letter-spacing: 4px;
+}
+.underline{
+	height: 0;
+	width: 90px;
+	margin: 0 auto;
+	border-top: 5px solid #49A6E9;
+}
+.review{
+	width: 90%;
+	height: 68%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+}
+.thumbnail{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	/*background: url("");*/
+	/*background-size: cover;*/
+}
+img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	border-radius: 50%;
+	object-fit: fill;
+}
+
+.quotes{
+	width: 30%;
+	height: 30%;
+	border-radius: 50%;
+	position: absolute;
+	background: url("https://toppng.com/uploads/preview/quote-icon-stormwater-runoff-is-one-of-the-few-forms-youtube-round-logo-blue-11563251487xgqzgecwse.png");
+	background-size: cover;
+	z-index: 6;
+}
+
+.shadow{
+	position: absolute;
+	background-color: #49A6E9;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: translate(8px, -5px);
+	border-radius: 50%;
+}
+
+
+
+.title{
+	height: 12%;
+	width: 100%;
+}
+
+h3,  h4 {
+	width: fit-content;
+	margin:0 auto;
+	margin-bottom: 1%;
+}
+h3{
+	color: #102A42;
+	letter-spacing: 4px;
+}
+h4{
+	color: #49A6E9;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.comment{
+	height: 25%;
+	width: 100%;
+
+}
+.comment p{
+	margin: 0;
+	text-align: center;
+	font-size: 18px;
+	color: #617D98;
+	font-family: sans-serif;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.controls{
+	width: 30%;
+	height: 17%;
+	margin: 0 auto;
+}
+.toggle{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+}
+button{
+	cursor: pointer;
+}
+.toggle button{
+	outline: 0;
+	border: 0;
+	margin: 0 auto;
+	font-size: 26px;
+	color: hsl(205, 96%, 76%);
+	z-index: 3;
+	background-color: white;
+}
+
+.toggle button:hover{
+	color: hsl(205, 100%, 50%);
+}
+.toggle button:active{
+	transform: scale(1.2);
+}
+
+
+#surprise{
+	font-size: 15px;
+	height: fit-content;
+	width: fit-content;
+	padding:3% 5%;
+	margin: 5% auto 0 auto;
+	color: #49A6E9;
+	border-radius: 8px;
+	border: 2px solid #49A6E9;
+	border-bottom-color: hsl(205, 100%, 30%);
+	border-right-color: hsl(205, 100%, 30%);
+	background-color: #EBF7FF;
+}
+
+#surprise:hover{
+	border-color: #49A6E9;
+}
+#surprise:active{
+	transform: scale(1.1);
+}
