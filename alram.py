@@ -4,7 +4,7 @@ from playsound import playsound
 #s=seconds
 #h=hours
 #p=period
-alarm_t = input("Enter the time of alarm to be set:HH:MM:SS\n")
+alarm_t = input("Enter the time of alarm to be set:HH:MM:SS AM/PM\n")
 alarm_h=alarm_t[0:2]
 alarm_m=alarm_t[3:5]
 alarm_s=alarm_t[6:8]
@@ -19,7 +19,7 @@ while True:
     if(alarm_p==current_p):
         if(alarm_h==current_h):
             if(alarm_m==current_m):
-                if(alarm_seconds==current_s):
+                if(alarm_s==current_s):
                     print("Wake Up!")
                     playsound('audio.mp3')
                     break
